@@ -5,7 +5,7 @@ export default function Header() {
     <nav className="flex items-center justify-between px-8 py-2 backdrop-blur-lg bg-white/70 shadow shadow-zinc-200 rounded-b-2xl w-full mx-auto fixed z-50 -translate-x-1/2 left-1/2">
       <div className="flex items-center space-x-2 text-2xl font-bold text-zinc-900">
         <div className="w-8 h-8 bg-linear-to-r from-pink-400 to-purple-500 rounded-full hover:animate-spin"></div>
-        <span>Ins</span>
+        <span>GramDown</span>
       </div>
       <div className="hidden md:flex items-center space-x-8 text-zinc-700">
         <a
