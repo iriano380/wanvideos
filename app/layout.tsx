@@ -14,28 +14,28 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Xnsta | Instagram Downloader",
+  title: "GramDown | Instagram Downloader",
   description:
     "Quickly and easily download Instagram posts, videos, and stories. Your go-to solution for saving Instagram content.",
-  metadataBase: new URL("https://xnsta.vercel.app"),
+  metadataBase: new URL("https://gramdown.vercel.app"),
   openGraph: {
     title: "Xnsta | Instagram Downloader",
     description:
       "Quickly and easily download Instagram posts, videos, and stories.",
     url: "https://xnsta.vercel.app",
-    siteName: "Xnsta",
-    locale: "en_US",
+    siteName: "GramDown",
+    locale: "pt_pt",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Xnsta | Instagram Downloader",
+    title: "GramDown | Instagram Downloader",
     description:
       "Quickly and easily download Instagram posts, videos, and stories.",
     creator: "@xevenbiswas",
   },
   alternates: {
-    canonical: "https://xnsta.vercel.app",
+    canonical: "https://gramdown.vercel.app",
   },
 };
 
@@ -52,7 +52,7 @@ export default function RootLayout({
       >
         <main className="grow">{children}</main>
         <footer className="py-4 text-center text-sm text-gray-500 border-t">
-          © {currentYear} Xnsta. All rights reserved.
+          © {currentYear} gramdown. All rights reserved.
         </footer>
         <Toaster richColors position="top-center" theme="light" />
       </body>
